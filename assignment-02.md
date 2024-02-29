@@ -80,6 +80,16 @@ and push to your github repository.
     What are the asymptotic running times of each of these algorithms?
     Which algorithm would you choose?
 
+A: W(n) = 5W(n/2) + n
+- n^(log(base2)5) = n^2.32
+- runtime complexity = O(n^2.32)
+B: W(n) = 2W(n-1) + 1
+- cannot define log function of base 1, but can determine asymptotic runtime complexity of O(2^n) because it can be derived from: W(n) = c * 2^(n-1) + O(2^n-1)
+C: W(n) = 9W(n/3) + n^2
+- n^(log(base3)9) = n^2, belongs to O(n^2)
+- runtime complexity = O((n^2)logn)
+
+I would choose algorithm A because it has the best runtime complexity.
 
 3. Now that you have some practice solving recurrences, let's work on
   implementing some algorithms. In lecture we discussed a divide and
