@@ -89,7 +89,7 @@ C: W(n) = 9W(n/3) + n^2
 - n^(log(base3)9) = n^2, belongs to O(n^2)
 - runtime complexity = O((n^2)logn)
 
-I would choose algorithm A because it has the best runtime complexity.
+I would choose algorithm C because it utilizes the best divide and conquer algorithm.
 
 3. Now that you have some practice solving recurrences, let's work on
   implementing some algorithms. In lecture we discussed a divide and
